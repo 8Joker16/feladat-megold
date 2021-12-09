@@ -4,7 +4,6 @@ import re
 import pandas as pd
 import uuid
 import os
-from flask import after_this_request
 
 
 def get_visitors_statistics():
@@ -37,7 +36,7 @@ def format_visitors_data_to_monthly(d: dict) -> dict:
 
 def get_keys_monthly(d: dict) -> list:
     months = list()
-    for m in d: 
+    for m in d:
         months.append(m[:-3])
     return list(dict.fromkeys(months))
 

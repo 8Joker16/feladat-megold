@@ -1,7 +1,5 @@
 from datetime import date as d_
-from flask.wrappers import Response
 from pymongo import MongoClient
-from bson import json_util
 import _queues
 DB_NAME = 'webstore'
 HOST = 'localhost'

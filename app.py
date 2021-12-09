@@ -2,7 +2,7 @@
 Bolti eladások
 Legforgalmasabb nap.
 Legtöbb/kevesebb bevétel napra bontva, átlagtól nagyon eltérő napok.
-Legtöbbet/kevesebbet vásárolt termék. 
+Legtöbbet/kevesebbet vásárolt termék.
 
 Actual traffic data of day
 traffic:
