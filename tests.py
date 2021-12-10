@@ -53,12 +53,6 @@ def load_sample_data() -> dict:
 
 
 class DBTests(unittest.TestCase):
-    '''
-    Sets up the test
-        self.app: creates a Flask instance with test_client
-        self.db: creates a mongodb client
-        self.sample_upload_data: generates sample Sys/Dia data structure
-    '''
 
     def setUp(self):
         self.app = app.createTestClient()
